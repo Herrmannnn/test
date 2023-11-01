@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contact-grid {
+     display: grid;
+     grid-template-columns: repeat:(auto=fill, minmax(200px, ifr));
+     grid-gap: 20px;
+}
+
+.product-cards {
+    border: 1px solid #ccc;
+}
